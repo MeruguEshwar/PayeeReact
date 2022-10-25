@@ -191,7 +191,7 @@ function Fourteen() {
             </div>
 
             <div
-              class="card ms-5 mt-3 smallcard border-bottom border-primary  border-3"
+              class="card ms-5 mt-3 smallcard"
               style={{ width: "24rem", height: "8rem" }}
             >
               <div class="card-body">

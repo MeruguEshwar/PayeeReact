@@ -199,7 +199,7 @@ function Twovel() {
               </div>
 
               <div
-                class="card ms-5 mt-3 smallcard border-bottom border-primary  border-3"
+                class="card ms-5 mt-3 smallcard"
                 style={{ width: "24rem", height: "8rem" }}
               >
                 <div class="card-body">
@@ -220,7 +220,7 @@ function Twovel() {
 
                   <div class="row">
                     <div class="col">
-                      <label for="inputEmail4" class="form-label">
+                      <label for="inputEmail4" class="form-label text-muted fw-bold fs-4">
                         Euro E0.00
                       </label>
                     </div>
@@ -504,7 +504,7 @@ function Twovel() {
                     <nav aria-label="breadcrumb">
                       <h4 className="heading mb-2 fs-6">Pound sterling GBP</h4>
                       <ol class="breadcrumb ms-">
-                        <li class="breadcrumb-item breadcrump2">
+                        <li class="breadcrumb-item breadcrump5">
                           <a
                             href="#"
                             className="text-muted text-decoration-none"

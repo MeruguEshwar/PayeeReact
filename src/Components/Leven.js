@@ -142,7 +142,7 @@ function Leven() {
                     <div class="collapse multi-collapse" id="multiCollapseExample1">
                         <div
                             class="card"
-                            style={{ height: "36rem", width: "400px", marginLeft: "275px" }}
+                            style={{ height: "34rem", width: "400px", marginLeft: "275px" }}
                         >
                             <div class="card card-body" >
 

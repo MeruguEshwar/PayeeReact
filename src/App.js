@@ -22,7 +22,7 @@ function App() {
     {/* <Third/> */}
     {/* <Second/> */}
     {/* <Fifth/> */}
-    {/* <First/> */}
+    <First/>
     {/* <Fifth/> */}
     {/* <Sixth/> */}
     {/* <Seven/> */}
@@ -33,7 +33,7 @@ function App() {
     {/* <Fifteen/> */}
     {/* <Sixteen/> */}
     {/* <Seventeen/> */}
-    <Tweenty/>
+    {/* <Tweenty/> */}
     </div>
   );
 }

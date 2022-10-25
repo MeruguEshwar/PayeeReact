@@ -105,14 +105,7 @@ function Second() {
         id="offcanvasScrolling"
         aria-labelledby="offcanvasScrollingLabel"
       >
-        <div class="offcanvas-header">
-          <button
-            type="button"
-            class="btn-close text-reset"
-            data-bs-dismiss="offcanvas"
-            aria-label="Close"
-          ></button>
-        </div>
+
         <div class="offcanvas-body">
           <div class="sidebar fw-bold">
             <a

@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../Images/payo.jpg";
 import logo1 from "../Images/modelogo.jpg";
+import dropdownlogo from "../Images/eshu.jpg";
 
 function First() {
   return (
@@ -15,12 +16,28 @@ function First() {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 {/* <a className="nav-link active" aria-current="page" href="#">Home</a> */}
-                <img src={logo} alt="Logo" id="headerlogo" />
+                <img
+                  src={logo}
+                  alt="Logo"
+                  id="headerlogo"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasScrolling"
+                  aria-controls="offcanvasScrolling"
+                />
               </li>
             </ul>
             <form className="d-flex">
-              <i className="fa fa-bell" />
-             
+              <i class="fa fa-bell mt-2 me-3" style={{ fontSize: "22px" }} />
+
+              <div class="dropdown">
+                <button class="btn btn-outline-light dropdown-toggle border-0 text-dark" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src={dropdownlogo} alt="Logo" id="headerdropdown" className="rounded-circle me-2" />Laura johnson
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                  <li><a class="dropdown-item active" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                </ul>
+              </div>
             </form>
           </div>
         </div>
@@ -79,16 +96,7 @@ function First() {
       </a>
 
       {/* Side nav */}
-      <button
-        className="btn btn-primary"
-        type="button"
-        data-bs-toggle="offcanvas"
-        data-bs-target="#offcanvasScrolling"
-        aria-controls="offcanvasScrolling"
-      >
-        Enable body scrolling
-      </button>
-
+    
       <div
         className="offcanvas offcanvas-start"
         data-bs-scroll="true"
@@ -97,14 +105,7 @@ function First() {
         id="offcanvasScrolling"
         aria-labelledby="offcanvasScrollingLabel"
       >
-        <div className="offcanvas-header">
-          <button
-            type="button"
-            className="btn-close text-reset"
-            data-bs-dismiss="offcanvas"
-            aria-label="Close"
-          ></button>
-        </div>
+        
         <div className="offcanvas-body">
           <div className="sidebar fw-bold">
             <a className="active" href="#home">
