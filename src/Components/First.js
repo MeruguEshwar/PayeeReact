@@ -98,26 +98,34 @@ function First() {
       {/* Side nav */}
     
       <div
-        className="offcanvas offcanvas-start"
+        class="offcanvas offcanvas-start"
         data-bs-scroll="true"
         data-bs-backdrop="false"
         tabindex="-1"
         id="offcanvasScrolling"
         aria-labelledby="offcanvasScrollingLabel"
       >
-        
-        <div className="offcanvas-body">
-          <div className="sidebar fw-bold">
-            <a className="active" href="#home">
+
+        <div class="offcanvas-body">
+          <div class="sidebar fw-bold">
+            <a
+              class="active"
+              data-bs-toggle="collapse"
+              href="#multiCollapseExample1"
+              role="button"
+              aria-expanded="false"
+              aria-controls="multiCollapseExample1"
+            >
+              <i class='fas fa-wallet me-3'></i>
               Accounts
             </a>
             <a href="#news">
-              <i className="fa fa-home"></i>Analytics
+              <i class="fa fa-bar-chart me-3 sidebaricons"></i>Analytics
             </a>
-            <a href="#contact">Payments</a>
-            <a href="#about">Cards</a>
+            <a href="#contact"><i class="fa fa-refresh me-3 sidebaricons"></i>Payments</a>
+            <a href="#about"><i class="fa fa-credit-card me-3 sidebaricons"></i>Cards</a>
             <a href="#about">
-              <i className="fa fa-bell"></i>Settings
+              <i class="fa fa-gears me-3 sidebaricons"></i>Settings
             </a>
           </div>
         </div>
